@@ -97,6 +97,7 @@ def get_answer(query, vector_store):
         prompt,
         max_new_tokens=50
     )
+    
 
     answer = response[0]["generated_text"]
 
